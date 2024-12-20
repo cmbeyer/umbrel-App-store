@@ -3,7 +3,7 @@ id: calibre-web-automated
 name: Calibre Web Automated
 tagline: Calibre Web Automated
 icon: https://preview.redd.it/calling-my-fellow-calibre-web-users-introducing-calibre-web-v0-31n8z2sc8k8d1.png?width=1024&format=png&auto=webp&s=f91d84c50f4888d192ff453324843609c330c6b4
-category: Development
+category: files
 version: "1.0.0"
 port: 4000
 defaultUsername: "admin"
