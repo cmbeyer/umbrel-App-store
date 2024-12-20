@@ -5,7 +5,7 @@ tagline: Calibre Web Automated
 icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfW7T4kFNqZDGqYafxU80e9MuDJ4GQxkDqdBKdW2y0SBrRLv22NurTvlxk4pb5E5F8olE&usqp=CAU
 category: files
 version: "1.0.0"
-port: 8545
+port: 8040
 defaultUsername: "admin"
 defaultPassword: "admin123"
 description: >-
