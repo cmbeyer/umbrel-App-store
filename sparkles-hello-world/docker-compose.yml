@@ -1,14 +1,22 @@
 version: "3.7"
 
 services:
-
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-hello-world_server_1
-      APP_PORT: 3000
-    
+      APP_HOST: calbre_web_automated_1
+      APP_PORT: 8040
+    container_name: calbre_web_automated_1
+   volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+      - ${UMBREL_ROOT}/storage/downloads/books:/cwa-book-ingest
+      - ${UMBREL_ROOT}/data/storage/downloads/calibre:/calibre-library 
   server:
-    image: getumbrel/community-app-store-hello-world:latest
+    image: crocodilestick/calibre-web-automated:latest
     user: "1000:1000"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - DOCKER_MODS=lscr.io/linuxserver/mods:universal-calibre-v7.16.0
     init: true
