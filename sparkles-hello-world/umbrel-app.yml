@@ -6,6 +6,8 @@ icon: https://preview.redd.it/calling-my-fellow-calibre-web-users-introducing-ca
 category: Development
 version: "1.0.0"
 port: 4000
+defaultUsername: "admin"
+defaultPassword: "admin123"
 description: >-
   Add your app's description here.
 
