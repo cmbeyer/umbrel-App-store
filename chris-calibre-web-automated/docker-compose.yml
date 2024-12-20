@@ -5,7 +5,7 @@ services:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: chris-calibre-web-automated_server_1
-      APP_PORT: 8040
+      APP_PORT: 8083
     
   server:
     image: crocodilestick/calibre-web-automated:latest
