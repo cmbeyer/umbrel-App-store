@@ -2,7 +2,7 @@ manifestVersion: 1
 id: calibre-web-automated
 name: Calibre Web Automated
 tagline: Calibre Web Automated
-icon: https://preview.redd.it/calling-my-fellow-calibre-web-users-introducing-calibre-web-v0-31n8z2sc8k8d1.png?width=1024&format=png&auto=webp&s=f91d84c50f4888d192ff453324843609c330c6b4
+icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfW7T4kFNqZDGqYafxU80e9MuDJ4GQxkDqdBKdW2y0SBrRLv22NurTvlxk4pb5E5F8olE&usqp=CAU
 category: files
 version: "1.0.0"
 port: 4000
